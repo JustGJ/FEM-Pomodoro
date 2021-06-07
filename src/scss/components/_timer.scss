@@ -1,0 +1,73 @@
+.timer {
+    font-family: var(--font);
+    color: var(--grey--dark);
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    background-color: transparent;
+    width: 410px;
+    height: 410px;
+    padding: 22px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #1b1e39, #202343);
+    box-shadow: 33px 33px 43px #171930, -33px -33px 43px #25294e;
+    
+    &__content {
+        position: absolute;
+        display: flex;
+        left: 50%;
+        top: 50%;
+        transform: translate(-48%, -50%);
+        flex-direction: column;
+        
+
+        &__count {
+            margin-top: 45px;
+            font-size: 6.25rem;
+            margin-bottom: 25px;
+            letter-spacing: -5px;
+            line-height: 100.59px;
+        }
+
+        &__action {
+            letter-spacing: 15px;
+        }
+    }
+    
+        svg {
+            height: 100%;
+            width: 100%;
+        }
+        
+        svg circle {
+            fill: var(--navy--dark--blue);
+            stroke:var(--color) !important;
+            stroke-width: 13px;
+            // stroke-dasharray:500 ; // segment le cercle 1164 max 
+            // stroke-dashoffset: 0 !important; // cercle fait tour mais dans l'autre sens
+            stroke-linecap: round; // arrondis les bords
+        }
+        
+        svg circle:nth-child(1) {
+            stroke: grey;
+            stroke-dashoffset: 0;
+        }
+        
+        svg circle:nth-child(2) {
+            animation: circle 2s forwards;
+        }
+        
+    }
+
+
+@keyframes circle {
+     to {
+         stroke-dashoffset: 220 ;
+     }
+}
+
+

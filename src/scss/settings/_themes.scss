@@ -1,0 +1,21 @@
+html[data-color="salmon"] {
+  --color : var(--salmon);
+}
+html[data-color="cyan"] {
+   --color : var(--cyan);
+
+}
+html[data-color="purple"] {
+   --color : var(--purple);
+}
+
+
+html[data-font="kumbh-sans"]{
+  --font : var(--kumbh);
+}
+html[data-font="roboto-slab"]{
+  --font : var(--roboto);
+}
+html[data-font="space-mono"]{
+  --font : var(--space);
+}

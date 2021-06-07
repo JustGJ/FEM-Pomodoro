@@ -1,0 +1,34 @@
+.header {
+    width: 373px;
+    margin: 3rem auto 0 auto;
+    text-align: center;
+
+    h1 {
+        color: var(--grey--dark);
+        font-size: 2rem;
+        line-height: 2rem;
+        font-family: var(--kumbh);
+    }
+    div {
+        height: 63px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--navy--dark--blue);
+        margin-top: 55px;
+        padding: 7px;
+        border-radius: 31.5px;
+
+        button {
+            font-family: var(--font);
+            background-color:var(--color);
+            color: var(--navy--blue);
+            cursor: pointer;
+            height: 48px;
+            width: 120px;
+            border: none;
+            border-radius: 26.5px;
+            font-size: 0.875rem;
+        }
+    }
+}
