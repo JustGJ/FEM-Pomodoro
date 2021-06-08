@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
+import { Count } from '../types/types';
+import { Mode } from '../types/enum';
+interface IProps {
+	timer: Count;
+	currentMode: Mode;
+}
 
-const Timer = () => {
-	const [count, setCount] = useState('25:00');
-
+const Timer = ({ timer, currentMode }: IProps) => {
 	return (
 		<button className="timer">
 			<svg>
@@ -15,11 +19,10 @@ const Timer = () => {
 				/>
 			</svg>
 			<div className="timer__content">
-				<span className="timer__content__count">{count}</span>
+				<span className="timer__content__count"></span>
 				<span className="timer__content__action">PAUSE</span>
 			</div>
 		</button>
 	);
 };
-
 export default Timer;

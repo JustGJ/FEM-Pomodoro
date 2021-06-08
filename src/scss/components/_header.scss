@@ -9,7 +9,7 @@
         line-height: 2rem;
         font-family: var(--kumbh);
     }
-    div {
+    &__buttons {
         height: 63px;
         display: flex;
         justify-content: space-between;
@@ -19,16 +19,30 @@
         padding: 7px;
         border-radius: 31.5px;
 
-        button {
-            font-family: var(--font);
-            background-color:var(--color);
+    }
+    
+    &__button {
+        background-color: transparent;
+        font-family: var(--font);
+        color: rgba(215, 224, 255, 0.4);
+        cursor: pointer;
+        height: 48px;
+        width: 120px;
+        border: none;
+        border-radius: 26.5px;
+        font-size: 0.875rem;
+        font-weight: 700;
+
+        &--active {
+            background-color:var(--color) !important;
+            border: 5px solid rgb(129, 129, 129) !important;
             color: var(--navy--blue);
-            cursor: pointer;
-            height: 48px;
-            width: 120px;
-            border: none;
-            border-radius: 26.5px;
-            font-size: 0.875rem;
         }
     }
 }
+
+
+
+
+       
+

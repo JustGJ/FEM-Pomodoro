@@ -78,7 +78,9 @@
                     width: 40px;
                     height: 40px;
                     border-radius: 50%;
-                
+                    
+                    
+
                     &:nth-child(1) {
                         font-family: var(--kumbh);
                     } 
@@ -88,6 +90,11 @@
                     &:nth-child(3) {
                         font-family: var(--space);
                     }    
+                }
+
+                .active {
+                    background-color: var(--navy--dark--blue);
+                    color: var(--white);
                 }
             }   
         }
@@ -108,6 +115,10 @@
                     &:nth-child(3) {
                         background-color: var(--purple);
                     }
+                    
+                }
+                .active {
+                    background: no-repeat url('../../assets/check-solid.svg') center;
                 }
             }
         }
