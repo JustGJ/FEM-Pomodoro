@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FEM-Pomodoro/static/css/main.f002e97c.chunk.css",
+    "main.js": "/FEM-Pomodoro/static/js/main.c04eb1eb.chunk.js",
+    "main.js.map": "/FEM-Pomodoro/static/js/main.c04eb1eb.chunk.js.map",
+    "runtime-main.js": "/FEM-Pomodoro/static/js/runtime-main.dff04ade.js",
+    "runtime-main.js.map": "/FEM-Pomodoro/static/js/runtime-main.dff04ade.js.map",
+    "static/js/2.39e8d818.chunk.js": "/FEM-Pomodoro/static/js/2.39e8d818.chunk.js",
+    "static/js/2.39e8d818.chunk.js.map": "/FEM-Pomodoro/static/js/2.39e8d818.chunk.js.map",
+    "index.html": "/FEM-Pomodoro/index.html",
+    "static/css/main.f002e97c.chunk.css.map": "/FEM-Pomodoro/static/css/main.f002e97c.chunk.css.map",
+    "static/js/2.39e8d818.chunk.js.LICENSE.txt": "/FEM-Pomodoro/static/js/2.39e8d818.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/FEM-Pomodoro/static/media/check-solid.97037416.svg",
+    "static/media/icon-close.79cfecaf.svg": "/FEM-Pomodoro/static/media/icon-close.79cfecaf.svg",
+    "static/media/icon-settings.e0a317db.svg": "/FEM-Pomodoro/static/media/icon-settings.e0a317db.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dff04ade.js",
+    "static/js/2.39e8d818.chunk.js",
+    "static/css/main.f002e97c.chunk.css",
+    "static/js/main.c04eb1eb.chunk.js"
+  ]
+}
